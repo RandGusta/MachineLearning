@@ -39,3 +39,4 @@ arvore = tree.DecisionTreeClassifier() # Definindo um objeto do tipo 'DecisionTr
 arvore.fit(x,y) # fit = aprenda, aprenda com os meus dados no caso X e Y --> ISSO É O MACHINE LEARNING 
 
 tree.plot_tree(arvore, class_names= arvore.classes_, feature_names= features, filled=True) # usamos o metodo plot tree e passamos o objeto "arvore" --> MOSTRA OQUE APRENDEU 
+# imagem da arvore --> na pasta imagens
